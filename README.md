@@ -56,4 +56,5 @@ classDiagram
 Esta API ficará disponível no Railway por um período de tempo limitado. 
 
 
-    URL de Produção: https://gameshopdto-production.up.railway.app/invoice/get/All
+    URL de Produção:
+https://gameshopdto-production.up.railway.app/swagger-ui/index.html#/invoice-controller/getAll_1
