@@ -51,9 +51,9 @@ classDiagram
 ```
 
 # Documentação da API (Swagger)
-## https://          /swagger-ui.html
+## https://gameshopdto-production.up.railway.app/swagger-ui.html
 
 Esta API ficará disponível no Railway por um período de tempo limitado. 
 
 
-    URL de Produção: https://       /users/1
+    URL de Produção: https://gameshopdto-production.up.railway.app/invoices/get/All
