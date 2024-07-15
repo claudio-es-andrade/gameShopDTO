@@ -1,0 +1,31 @@
+H2 VALUES:
+##################################################################
+INSERT INTO clients(id_client, name_client)
+	VALUES(1, 'João'),
+          (2, 'Maria'),
+          (3, 'Roberto'),
+          (4, 'Paula');
+##################################################################
+INSERT INTO categories(id_category, name_category)
+		VALUES(1, 'ACTION'),
+              (2, 'ADVENTURE'),
+              (3, 'SPORTS'),
+              (4, 'FANTASY');
+##################################################################
+INSERT INTO games(id_game, name_game, price, id_Category)
+	VALUES(1, 'COD', '300.45', 1),
+		  (2, 'NBA FK', '200.55', 2),
+          (3, 'Among US', '100.95', 3),
+          (4, 'Sonic', '200.45', 4);
+##################################################################
+INSERT INTO orders(id_order , qty, id_client, id_game)
+		VALUES(1, 2, 4, 3),
+              (2, 3, 3, 4),
+              (3, 2, 2, 2),
+              (4, 3, 1, 1);
+##################################################################
+INSERT INTO invoices (ID_INVOICE, INV_CLIENT, INV_QTY, INV_GAME, INV_PRICE, INV_CATEGORY)
+
+JUST PRESS THE "GET ALL EXECUTE" BUTTON TO EXECUTE AND GET THE VALUES WHEN IN THE OPEN API SWAGGER PAGE.
+
+#######################################################################################
