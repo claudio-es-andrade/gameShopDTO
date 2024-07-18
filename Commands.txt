@@ -1,0 +1,20 @@
+# Docker Commands: Build the Image of the application.
+sudo docker build -t gameshop_image .
+
+# Check The image:
+sudo docker images
+
+# Starting the image:
+sudo docker run -d -p 8080:8080 gameshop_image
+
+# Start building the docker compose:
+sudo docker compose up --build
+
+# Starting the containers:
+sudo docker compose up -d
+
+# Stop the application:
+sudo docker compose down
+
+# Stop Container:
+sudo docker stop CONTAINER_ID

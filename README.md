@@ -8,6 +8,9 @@ Java RESTful API.
  - **Spring Data JPA**: Exploraremos como essa ferramenta pode simplificar nossa camada de acesso aos dados, facilitando a integração com bancos de dados SQL;
  - **OpenAPI (Swagger)**: Vamos criar uma documentação de API eficaz e fácil de entender usando a OpenAPI (Swagger), perfeitamente alinhada com a alta produtividade que o Spring Boot oferece;
  - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
+ 
+ ## Contruindo um container da sua aplicação
+ - **Docker**: Podemos também criar uma imagem da aplicação e, juntamente com uma imagem de um Banco de Dados, neste caso foi utilizado o MySQL, podemos construir também um container do sistema para rodar localmente ou enviar para algum repositório específico, como por exemplo o DockerHub. Instruções de criação dos arquivos do Dockerfile, Docker-compose.yml foram criados (Commands.txt).
 
 
 ## Diagrama de Classes (Domínio da API)
