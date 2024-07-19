@@ -10,7 +10,7 @@ Java RESTful API.
  - **Railway**: facilita o deploy e monitoramento de nossas soluções na nuvem, além de oferecer diversos bancos de dados como serviço e pipelines de CI/CD.
  
  ## Contruindo um container da sua aplicação
- - **Docker**: Podemos também criar uma imagem da aplicação e, juntamente com uma imagem de um Banco de Dados, neste caso foi utilizado o MySQL, podemos construir também um container do sistema para rodar localmente ou enviar para algum repositório específico, como por exemplo o DockerHub. Instruções de criação dos arquivos do Dockerfile, Docker-compose.yml foram criados (Commands.txt).
+ - **Docker**: Podemos criar uma imagem da aplicação e, juntamente com uma imagem de um Banco de Dados (Postgres), podemos construir também um container do sistema para rodar localmente ou enviar para algum repositório específico, como por exemplo o DockerHub. Instruções de criação dos arquivos do Dockerfile, Docker-compose.yml foram criados (Commands.txt).
 
 
 ## Diagrama de Classes (Domínio da API)
