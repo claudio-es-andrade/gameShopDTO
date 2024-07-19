@@ -1,11 +1,17 @@
 # Docker Commands: Build the Image of the application.
-sudo docker build -t gameshop_image .
+sudo docker build -t docker-spring-boot-postgres:latest .
 
 # Check The image:
 sudo docker images
 
-# Starting the image:
-sudo docker run -d -p 8080:8080 gameshop_image
+# Starting the container:
+sudo docker run -d -p 8080:8080 docker-spring-boot-postgres:latest
+
+# Check The container:
+sudo docker container ps
+
+# Stop Container:
+sudo docker stop CONTAINER_ID
 
 # Start building the docker compose:
 sudo docker compose up --build
@@ -18,3 +24,4 @@ sudo docker compose down
 
 # Stop Container:
 sudo docker stop CONTAINER_ID
+
