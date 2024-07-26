@@ -59,5 +59,8 @@ classDiagram
 Esta API ficará disponível no Railway por um período de tempo limitado. 
 
 
-    URL de Produção:
-https://SEU_LOCAL_DE_LANÇAMENTO/swagger-ui/index.html#/invoice-controller/getAll_1
+    URL de Produção: https://SEU_LOCAL_DE_LANÇAMENTO/swagger-ui/index.html#/invoice-controller/getAll_1
+
+# Docker Image:
+## https://hub.docker.com/r/claudinhoandrade/gameshop-app
+
